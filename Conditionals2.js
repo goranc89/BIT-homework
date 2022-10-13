@@ -41,7 +41,11 @@ if (c>=91 && c<=100) {
 //4.zadatak
 var a= 5;
 var b= "dog";
-console.log(a + " " +  b + "s");
+if (a>1) {
+    console.log(a + " " +  b + "s")
+} else if (a=1) {
+    console.log (a + b)
+}
 
 //5.zadatak
 var age=13;
@@ -71,15 +75,15 @@ var e="Rotweiler"
     var f="German Shepherd"
 
 if (a==f) {
-    console.log("This is German Shepherd called Neo")
+    console.log("This is " + a + " called Neo")
 } else if (b==f) {
-    console.log("This is German Shepherd called Neo")
+    console.log("This is " + b + " called Neo")
 } else if (c==f) {
-    console.log("This is German Shepherd called Neo")
+    console.log("This is " + c + " called Neo")
 } else if (d==f) {
-    console.log("This is German Shepherd called Neo")
+    console.log("This is " + d + " called Neo")
 } else if (e==f) {
-    console.log("This is German Shepherd called Neo")
+    console.log("This is " + e + " called Neo")
 } else {
     "This is a mixed breed"
 }
