@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <title>Kviz znanja</title>
+</head>
+<body>
+    <h1>Kviz znanja</h1>
+<form action="/" method:Get>
+<p>Koja vrsta reči u srpskom jeziku imaju promenu koja se zove konjugacija?</p>
+<br>
+<input type="radio" name="vrstareci" value="imenice" id="imenice"> Imenice
+<br>
+<input type="radio" name="vrstareci" value="glagoli" id="glagoli"> Glagoli
+<br>
+<input type="radio" name="vrstareci" value="zamenice" id="zamenice"> Zamenice
+</form>
+
+<form action="/" method:Get>
+<p>Koje vrste reči u srpskom jeziku mogu biti i promenljive i nepromenljive?</p>
+<br>
+<input type="checkbox" name="vrstereci" value="prilozi">Prilozi
+<br>
+<input type="checkbox" name="vrstereci" value="predlozi">Predlozi
+<br>
+<input type="checkbox" name="vrstereci" value="veznici">Veznici
+<br>
+<input type="checkbox" name="vrstereci" value="brojevi">Brojevi
+</form>
+
+<form action="/" method:Get>
+<p>Napišite nekoliko rečenica o promenljivim vrstama reči</p>
+    <br>
+    <textarea name="comments" rows="10" cols="15" ></textarea>
+</form>
+
+<form action="/">
+<p>Koji je datum Vašeg rođenja?</p>
+
+<select name="date" id="date">
+<option value="26.10.2021.">26.10.2021.</option>
+<option value="13.10.1993.">13.10.1993.</option>
+<option value="23.09.1987.">23.10.1987.</option>
+</select>
+</form>
+
+<form action="/">
+<p>Koje vrste reči od navedenih imaju deklinaciju?</p>
+
+<select name="deklinacija" id="deklinacija" size="3" multiple="multiple">
+    <option value="glagoli">Glagoli</option>
+    <option value="imenice">Imenice</option>
+    <option value="pridevi">Pridevi</option>
+    <option value="brojevi">Brojevi</option>
+</select>
+</form>
+
+<form action="/" method:Post>
+<p>Upload your photo to show results of dieting and workout images</p>
+<input type="file" name="then">
+<br>
+<input type="file" name="now">
+
+<br>
+
+<textarea name="description" rows="10" cols="20"></textarea>
+<button type="button">
+    <a href="./handle-upload.html" target="blank"> Send</a>
+</button>
+</form>
+<form action="/" >
+    <input type="submit" name="Reset" value="reset">
+</form>
+<form action="/">
+    <input type="image" name="submit" src="https://bits-and-pieces.ca/wp-content/uploads/2021/07/25541-9-submit-button-transparent-thumb.png" width="200" height="200">
+</form>
+</body>
+</!DOCTYPE html> 
