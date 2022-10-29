@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: Fasthand;
+    src: url(Fasthand-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: shalimar;
+    src: url(https://fonts.google.com/specimen/Shalimar);
+}
+
+.naslov {
+    font-family: shalimar;
+}
+
+body {
+    font-size: large;
+    font-weight: 200;
+}
+.first {
+    font-family: Fasthand;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.one {
+    font-family: 'Franklin Gothic Medium';
+}
+.second {
+    font-family: 'Times New Roman';
+    font-style: oblique;
+}
+.two {
+    font-family: 'Trebuchet MS';
+}
+.third {
+    font-family: 'Courier New';
+    
+}
+.nova {
+    font-weight: 700;
+    font-style: italic;
+}
+.three {
+    font-family: 'Lucida Sans',;
+}
+

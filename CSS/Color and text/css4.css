@@ -1,0 +1,16 @@
+.first {
+    color: blue;
+    text-shadow: 2px 2px 2px rgb( blue);
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color:green
+}
+a:active {
+    color: blue;
+}
