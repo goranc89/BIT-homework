@@ -1,0 +1,15 @@
+.slika1 {
+    height: 200px;
+    float: right;
+}
+
+.slika2 {
+    width: 200px;
+    float: center;
+}
+
+.slika3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
