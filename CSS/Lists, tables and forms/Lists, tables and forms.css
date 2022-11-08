@@ -1,0 +1,95 @@
+#unordered {
+    list-style-type: circle;
+}
+#unordered1 {
+    list-style-type: square;
+}
+#ordered {
+    list-style-type: upper-alpha;
+
+}
+#ordered1 {
+    list-style-type: decimal;
+}
+ul#image-marker {
+    width: 200px;
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif)
+    
+}
+ul#image-marker1 {
+    width: 200px;
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+    list-style-position: inside;
+}
+
+img {
+    width: 100px;
+}
+.t-div {
+    width: 0;
+    margin: auto 500px;
+}
+table {
+    width: 500px;
+}
+.t-head {
+    background-color: brown;
+    height: 50px;
+}
+tr:hover {
+    background-color: yellow;
+}
+tr:nth-child(2n+2) {
+    background-color: gray;
+}
+td {
+    padding: 10px 10px 0;
+}
+
+
+.form-wrapper {
+    width: 300px;
+    background-color: rgb(218, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .color-y {
+    color: orange;
+  }
+  .title {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  input {
+    display: block;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .all-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-inputs-labels {
+    margin-top: 10px;
+    /* padding-right: 10px;
+    padding-left: 30px; */
+  }
+  .btn {
+    background-color: red;
+    color: white;
+    width: 250px;
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: red;
+  }
