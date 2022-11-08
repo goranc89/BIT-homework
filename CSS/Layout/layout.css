@@ -1,0 +1,23 @@
+.prvaslika {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+
+.drugaslika {
+    position: absolute;
+    right: 10px;
+    margin-top:  15px;
+}
+
+.trecaslika {
+    position: absolute;
+    bottom: 15px ;
+    width: 200px;
+}
+.link {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}

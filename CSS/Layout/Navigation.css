@@ -1,0 +1,17 @@
+div {
+    width: 960px;
+    height: 50px;
+    background-color: red;
+    
+    position: relative;
+}
+#unordered {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    color: aliceblue;
+    padding-right: 15px;
+}
+li {
+    padding-right: 15px;
+}
