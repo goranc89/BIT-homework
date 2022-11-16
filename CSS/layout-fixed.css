@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+.container{ 
+    width:870px;    
+    margin:auto;    
+    
+}
+header{
+    padding:10px;
+    background:aqua;
+}
+nav{
+    padding:10px;
+    background:gray;
+}
+main{
+    display:flex;
+}
+aside{
+    background:red;
+    flex: 1 0 25%;
+    padding:10px;
+}
+section{
+    background:yellow;
+    flex: 1 0 75%;
+    padding:10px;
+}
+footer{
+    padding:10px;
+    background:#333;
+    color:#fff;
+}
