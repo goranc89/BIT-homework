@@ -1,0 +1,19 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+ width: 960px;
+ margin: 10px auto;   
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
