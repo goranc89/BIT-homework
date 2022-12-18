@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built-in objects</title>
+    <script type="text/javascript" src="../Object/builtinObjects.js"></script>
+    <script>
+        
+        var name= "Hamza"
+        var surname= "Muharemovic"
+    
+        function print () {
+    
+            name + surname
+        
+        return "My name is " + name + " " +  surname 
+        }
+        console.log(print());
+
+    //BOM
+
+    function getBrowserInformation() {
+	var  info = "\n Platform: " + navigator.platform + "\n App Version: " + navigator.appVersion +"\n App Name: " + navigator.appName;
+        
+	   
+    return "Here're the information related to your browser: " + info
+}
+console.log(getBrowserInformation())
+
+    function isOnline () {
+        result=[];
+        if(navigator.onLine) {
+        result = "Application is online.";
+    } else {
+        result = "Application is offline.";
+    }
+    return result
+    }
+console.log(isOnline());
+
+// window.screen
+function getAvailSize() {
+    var result = ("Available Screen Width: " + screen.availWidth + ", Height: " + screen.availHeight);
+    return result;
+}
+
+console.log(getAvailSize());
+
+function maxBrowserHeight() {
+    var result = ("Max possible browwser height of my screen is: " + screen.height);
+    return result;
+}
+console.log(maxBrowserHeight());
+
+// window.location
+
+function getURLinfo() {
+    var result= ("The website’s URL information of this page are: " + "\nFull URL address: " + window.location.href + "\nDomain name: " + window.location.hostname + "\nUsed protocol: " + window.location.protocol + "\nPort number: " + window.location.port + "\nQuery string part of a URL: " + window.location.search)
+    return result;
+}
+console.log(getURLinfo());
+
+function reloadPage() {
+    window.location.reload(true);
+}
+// console.log(reloadPage());
+
+function loadNewPage(){
+    window.location.replace("https://www.bgit.rs");
+}
+// console.log(loadNewPage())
+
+// window.localStorage
+
+function storeData () {
+    var car = {
+        name:"Mercedes",
+        color: "white",
+        price: "100.000"
+    }
+    var result = window.localStorage.setItem("car", JSON.stringify(car));
+
+    return result;
+}
+console.log(storeData());
+
+
+function readData () {
+
+    var result = window.localStorage.getItem("car");
+
+    return result;
+}
+console.log(readData());
+
+function removeData () {
+
+var result = window.localStorage.removeItem("price");
+
+return result;
+}
+console.log(removeData());
+
+
+function storeData () {
+    var car = {
+        name:"Mercedes",
+        color: "white",
+        price: "100.000"
+    }
+    var result = window.sessionStorage.setItem("car", JSON.stringify(car));
+
+    return result;
+}
+console.log(storeData());
+
+
+function readData () {
+
+    var result = window.sessionStorage.getItem("car");
+
+    return result;
+}
+console.log(readData());
+
+function removeData () {
+
+var result = window.sessionStorage.removeItem("price");
+
+return result;
+}
+console.log(removeData());
+
+// window.history
+
+function goBack() {
+    var result = window.history.back();
+  return result;
+}
+console.log(goBack());
+
+function goForward() {
+    var result= window.history.forward()
+  return result;
+}
+console.log(goForward());
+
+function goBack2Pages() {
+    var result= window.history.go(-2)
+  return result;
+}
+console.log(goBack2Pages());
+
+// Window Methods
+
+
+function greetingMessage() {
+    var result= window.alert("Hello world");
+  return result;
+}
+// console.log(greetingMessage());
+
+
+function answerTheQuestion() {
+    var question = prompt("Are you ready to start this course? We will submit this answer now!");
+
+    if (question.toLowerCase() === "yes") {
+        alert("You have joined the team!");
+    }
+
+    }
+// console.log(answerTheQuestion());
+
+    </script>
+</head>
+<body>
+  
+
+</body>
+</html>
