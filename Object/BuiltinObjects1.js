@@ -58,6 +58,8 @@ function countElLessMiddleEl (arr) {
     if (arr.length % 2 === 0) {
         return 'ERROR';
     }
+    
+    //KOMENTAR: Nepotrebno koristis Math objekat :) Ali nema veze. Ubuduce samo malkice povedi racuna ima li smisla koristiti neki objekat/funkciju.
     var middle = Math.floor(arr.length / 2);
     var count = 0;
     for (var i = 0; i < arr.length; i++){
